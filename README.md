@@ -2,7 +2,11 @@
 
 **Idea:** 
 
-This Repo_Guide should act as a Guideline to correctly correspond NIST frameworks, guidelines and controls. Target Group SME. 
+This Repo_Guide should act as a Guideline to correctly correspond (NIST) frameworks, guidelines and controls. Target Group SME. 
+
+*TBD if COBIT Frameworks or ISO27001 Standards to be included*
+
+# NIST
 
 ## NIST CSF
 **NIST Cybersecurity Framework (CSF) 2.0**: Provides guidance to manage cybersecurity risks and offers a taxonomy of high-level cybersecurity outcomes. It does **not** prescribe how outcomes should be achieved but links to online resources for additional guidance.
@@ -38,3 +42,19 @@ To summarize here are some simplified explanations:
 - **SP 800-63A Enrollment and Identity Proofing**: Guidelines for verifying an identity for digital authentication.
 - **SP 800-63B Authentication and Lifecycle Management**: Guidelines for authenticating subjects interacting with government systems. Contains NIST-PW Guidelines
 - **SP 800-63C Federation and Assertions**: Guidelines for implementing federated identity systems and assertions.
+
+
+
+# ISO 27001
+
+
+
+# COBIT (ISACA) 
+
+
+
+
+
+
+
+
