@@ -22,7 +22,7 @@ This Repo_Guide should act as a Guideline to correctly correspond NIST framework
 **SP 800-63B Authentication and Lifecycle Management**: Focuses on the authentication of subjects interacting with government systems over open networks, establishing that a given claimant is a subscriber who has been previously authenticated.
 
 > [!IMPORTANT]
-> The Appendix A— `Strength of Memorized Secrets` contains password guidelines.  
+> Chapter 5 elaborates on `Strength of Memorized Secrets` stating: "Memorized secrets SHALL be at least 8 characters in length if chosen by the subscribercontains password guidelines."  
 
 **SP 800-63C Federation and Assertions**: Provides technical and procedural guidelines to agencies for the implementation of federated identity systems and for assertions used by federations. This guideline focuses on the use of federated identity and the use of assertions to implement identity federations.
 
