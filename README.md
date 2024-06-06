@@ -1,55 +1,111 @@
-# Overview CyberSecFrameworks
+# Overview CyberSecurity Frameworks
 
-**Idea:** 
+**Idea:**
 
-This Repo_Guide should act as a Guideline to correctly correspond (NIST) frameworks, guidelines and controls. Target Group SME. 
+This Repo_Guide should act as a Guideline to correctly correspond (NIST) frameworks, guidelines, and controls. Target Group: SMEs.
 
-*TBD if COBIT Frameworks or ISO27001 Standards to be included*
+## Introduction
+### Purpose and Scope
+This guide aims to provide an overview of major existing cybersecurity and IT frameworks, detailing their purpose, scope, and key components. It is designed to help SMEs understand the differences and applications of each framework to enhance their cybersecurity posture.
 
-# NIST
+### How to Use This Guide
+- **Navigation:** Use the Table of Contents to navigate to specific sections.
+- **Comparison Table:** Refer to the comparison table for a quick overview of key differences between frameworks.
+- **Deep Dive:** Click on the links provided to access detailed guides and official documents for each framework.
 
-## NIST CSF
-**NIST Cybersecurity Framework (CSF) 2.0**: Provides guidance to manage cybersecurity risks and offers a taxonomy of high-level cybersecurity outcomes. It does **not** prescribe how outcomes should be achieved but links to online resources for additional guidance.
+## Framework Comparison Table
+| Framework/Guide                     | Purpose                                         | Controls | Legally Binding* | Application Area              |
+|-------------------------------------|-------------------------------------------------|----------|-----------------|------------------------------|
+| NIST CSF 2.0                        | Manage cybersecurity risks                      | No       | No              | General cybersecurity         |
+| NIST SP 800-53 Rev. 5               | Catalog of security and privacy controls        | Yes      | Yes             | Federal information systems   |
+| NIST SP 800-53A Rev. 5              | Assessing security and privacy controls         | Yes      | Yes             | Federal information systems   |
+| NIST SP 800-53B                     | Security and privacy control baselines          | Yes      | Yes             | Federal information systems   |
+| SP 800-63-3 Digital Identity        | Digital identity services requirements          | Yes      | Yes             | Digital identity services     |
+| SP 800-63A Enrollment and Identity  | Verifying identity for digital authentication   | Yes      | Yes             | Digital identity services     |
+| SP 800-63B Authentication and Lifecycle | Authenticating users in government systems    | Yes      | Yes             | Digital identity services     |
+| SP 800-63C Federation and Assertions | Implementing federated identity systems         | Yes      | Yes             | Federated identity systems    |
+| ISO 27001 Standard                  | Information security management systems         | Yes      | No             | General information security  |
+| COBIT (ISACA)                       | IT governance and management                    | Yes      | No              | IT governance                 |
 
-## NIST SP 800-53
-**NIST SP 800-53 Rev. 5**: Provides a catalog of security and privacy controls for information systems and organizations to protect from a diverse set of threats and risks. The controls are flexible, customizable, and implemented as part of an organization-wide process to manage risk.
+_*Depending on Country_
 
-**NIST SP 800-53A REV. 5**: Provides a methodology and set of procedures for conducting assessments of security and privacy controls employed within systems and organizations within an effective risk management framework.
+# Detailed Framework Sections (Deep Dive) 
 
-**NIST SP 800-53B**: Provides security and privacy control baselines for the Federal Government. There are three security control baselines (one for each system impact level—low-impact, moderate-impact, and high-impact), as well as a privacy baseline that is applied to systems irrespective of impact level.
+## NIST
 
-## SP 800-63 Special Publication
-**SP 800-63-3 Digital Identity Guidelines**: Provides technical requirements for federal agencies implementing digital identity services. The guidelines cover identity proofing and authentication of users interacting with government IT systems over open networks.
+### NIST Cybersecurity Framework (CSF) 2.0
+**Purpose:** Provides guidance to manage cybersecurity risks and offers a taxonomy of high-level cybersecurity outcomes.  
+**Key Components:** Identify, Protect, Detect, Respond, Recover.  
+**Application:** General cybersecurity management across industries.
 
-**SP 800-63A Enrollment and Identity Proofing**: Focuses on the enrollment and verification of an identity for use in digital authentication. Central to this is a process known as identity proofing in which an applicant provides evidence to a credential service provider (CSP) reliably identifying themselves.
+### NIST SP 800-53 Rev. 5
+**Purpose:** Catalog of security and privacy controls for information systems and organizations.  
+**Key Components:** Control Families (e.g., Access Control, Incident Response).  
+**Application:** Federal information systems and organizations.
 
-**SP 800-63B Authentication and Lifecycle Management**: Focuses on the authentication of subjects interacting with government systems over open networks, establishing that a given claimant is a subscriber who has been previously authenticated.
+### NIST SP 800-53A Rev. 5
+**Purpose:** Procedures for assessing security and privacy controls.  
+**Key Components:** Assessment Procedures, Control Enhancements.  
+**Application:** Federal information systems and organizations.
+
+### NIST SP 800-53B
+**Purpose:** Security and privacy control baselines for the Federal Government.  
+**Key Components:** Low, Moderate, High impact levels.  
+**Application:** Federal information systems.
+
+### SP 800-63 Special Publication
+#### SP 800-63-3 Digital Identity Guidelines
+**Purpose:** Technical requirements for implementing digital identity services.  
+**Key Components:** Identity Proofing, Authentication, Federation.  
+**Application:** Digital identity services in federal agencies.
+
+#### SP 800-63A Enrollment and Identity Proofing
+**Purpose:** Guidelines for verifying an identity for digital authentication.  
+**Key Components:** Identity Proofing, Credential Service Provider (CSP).  
+**Application:** Enrollment and identity proofing in digital identity services.
+
+#### SP 800-63B Authentication and Lifecycle Management
+**Purpose:** Guidelines for authenticating users in government systems.  
+**Key Components:** Authentication Methods, Lifecycle Management.  
+**Application:** Authentication in government systems.
 
 > [!IMPORTANT]
 > Chapter 5 elaborates on `Strength of Memorized Secrets` stating: "Memorized secrets SHALL be at least 8 characters in length if chosen by the subscribercontains password guidelines."  
 
-**SP 800-63C Federation and Assertions**: Provides technical and procedural guidelines to agencies for the implementation of federated identity systems and for assertions used by federations. This guideline focuses on the use of federated identity and the use of assertions to implement identity federations.
+#### SP 800-63C Federation and Assertions
+**Purpose:** Guidelines for implementing federated identity systems.  
+**Key Components:** Federations, Assertions, Technical Procedures.  
+**Application:** Federated identity systems in government.
 
-## Explanation Summary
+## ISO 27001 Standard
+**Purpose:** Establishing, implementing, maintaining, and continually improving an information security management system (ISMS).  
+**Key Components:** Risk Assessment, Risk Treatment, Security Controls.  
+**Application:** General information security management across industries.
 
-To summarize here are some simplified explanations:
+## COBIT (ISACA)
+**Purpose:** IT governance and management framework.  
+**Key Components:** Governance Objectives, Management Objectives, Process Capability.  
+**Application:** IT governance and management.
 
-- **NIST CSF 2.0**: A guide for managing cybersecurity risks (no controls).
-- **NIST SP 800-53 Rev. 5**: A catalog of security and privacy controls for information systems.
-- **NIST SP 800-53A Rev. 5**: Procedures for assessing security and privacy controls within systems.
-- **NIST SP 800-53B**: Security and privacy control baselines for the Federal Government.
-- **SP 800-63-3 Digital Identity Guidelines**: Technical requirements for implementing digital identity services.
-- **SP 800-63A Enrollment and Identity Proofing**: Guidelines for verifying an identity for digital authentication.
-- **SP 800-63B Authentication and Lifecycle Management**: Guidelines for authenticating subjects interacting with government systems. Contains NIST-PW Guidelines
-- **SP 800-63C Federation and Assertions**: Guidelines for implementing federated identity systems and assertions.
+## Visual Aids
+- **Diagrams and Flowcharts:** Visual representations of the structure and processes of each framework.
+- **Screenshots:** Examples from official documents or tools used within these frameworks.
 
+## Deep Dive Sections
+- **Detailed Guides:** Links to in-depth guides and official documents for each framework.
+- **Further Reading:** Additional resources and scholarly articles for further exploration.
 
+## Legal and Compliance Implications
+- **Regulatory Considerations:** How each framework aligns with different regulatory environments.
+- **Compliance Guidelines:** Steps to achieve and demonstrate compliance with these frameworks.
 
-# ISO 27001
+## Interactive Elements
+- **FAQs:** Common questions about selecting and using frameworks.
+- **Community Contributions:** Discussion board for users to share experiences and additional resources.
 
-
-
-# COBIT (ISACA) 
+## Maintenance and Updates
+- **Version Tracking:** Changelog of updates to the frameworks and the documentation.
+- **Feedback System:** System for users to provide feedback and suggest improvements.
 
 
 
