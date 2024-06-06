@@ -31,6 +31,9 @@ _*Depending on Country_
 
 # Detailed Framework Sections (Deep Dive) 
 
+> [!IMPORTANT]
+> Section to be expanded/completed with framework related deep dives. 
+
 ## NIST
 
 ### NIST Cybersecurity Framework (CSF) 2.0
@@ -53,18 +56,17 @@ _*Depending on Country_
 **Key Components:** Low, Moderate, High impact levels.  
 **Application:** Federal information systems.
 
-### SP 800-63 Special Publication
-#### SP 800-63-3 Digital Identity Guidelines
+### SP 800-63-3 Digital Identity Guidelines
 **Purpose:** Technical requirements for implementing digital identity services.  
 **Key Components:** Identity Proofing, Authentication, Federation.  
 **Application:** Digital identity services in federal agencies.
 
-#### SP 800-63A Enrollment and Identity Proofing
+### SP 800-63A Enrollment and Identity Proofing
 **Purpose:** Guidelines for verifying an identity for digital authentication.  
 **Key Components:** Identity Proofing, Credential Service Provider (CSP).  
 **Application:** Enrollment and identity proofing in digital identity services.
 
-#### SP 800-63B Authentication and Lifecycle Management
+### SP 800-63B Authentication and Lifecycle Management
 **Purpose:** Guidelines for authenticating users in government systems.  
 **Key Components:** Authentication Methods, Lifecycle Management.  
 **Application:** Authentication in government systems.
@@ -72,7 +74,7 @@ _*Depending on Country_
 > [!IMPORTANT]
 > Chapter 5 elaborates on `Strength of Memorized Secrets` stating: "Memorized secrets SHALL be at least 8 characters in length if chosen by the subscribercontains password guidelines."  
 
-#### SP 800-63C Federation and Assertions
+### SP 800-63C Federation and Assertions
 **Purpose:** Guidelines for implementing federated identity systems.  
 **Key Components:** Federations, Assertions, Technical Procedures.  
 **Application:** Federated identity systems in government.
@@ -87,25 +89,6 @@ _*Depending on Country_
 **Key Components:** Governance Objectives, Management Objectives, Process Capability.  
 **Application:** IT governance and management.
 
-## Visual Aids
-- **Diagrams and Flowcharts:** Visual representations of the structure and processes of each framework.
-- **Screenshots:** Examples from official documents or tools used within these frameworks.
-
-## Deep Dive Sections
-- **Detailed Guides:** Links to in-depth guides and official documents for each framework.
-- **Further Reading:** Additional resources and scholarly articles for further exploration.
-
-## Legal and Compliance Implications
-- **Regulatory Considerations:** How each framework aligns with different regulatory environments.
-- **Compliance Guidelines:** Steps to achieve and demonstrate compliance with these frameworks.
-
-## Interactive Elements
-- **FAQs:** Common questions about selecting and using frameworks.
-- **Community Contributions:** Discussion board for users to share experiences and additional resources.
-
-## Maintenance and Updates
-- **Version Tracking:** Changelog of updates to the frameworks and the documentation.
-- **Feedback System:** System for users to provide feedback and suggest improvements.
 
 
 
